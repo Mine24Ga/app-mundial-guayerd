@@ -327,10 +327,10 @@ let jugadoresMap = jugadores.map(
   <h5 class="card-title">${jugador.name}</h5>
   <p class="card-text">
   <p>Edad: ${jugador.edad} </p>
-  <p>Posición:${jugador.posicion}</p> 
-  <p>Peso:${jugador["stats-fisico"].peso}</p> 
-  <p>Altura:${jugador["stats-fisico"].altura}</p> 
-  <p>Equipo actual:${jugador["equipo-actual"]}</p> 
+  <p>Posición: ${jugador.posicion}</p> 
+  <p>Peso: ${jugador["stats-fisico"].peso}</p> 
+  <p>Altura: ${jugador["stats-fisico"].altura}</p> 
+  <p>Equipo actual: ${jugador["equipo-actual"]}</p> 
   <p>Fecha de nacimiento: ${jugador["fecha-nacimiento"]}</p> 
   </p>
 </div>
