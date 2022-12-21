@@ -168,9 +168,9 @@ footer {
 
 /*------------------------------------------- JUGADORES ------------------------------------*/
 
- .h1 {
+.h1 {
   padding: 2rem;
-  width: 70%;
+  width: 479px;
   margin-left: 34%;
   font-family: "Raleway";
   font-style: normal;
@@ -203,7 +203,6 @@ footer {
   font-size: 13px;
   color: #212529;
   text-align: start !important;
-  
 }
 
 section {
@@ -228,14 +227,13 @@ section {
   line-height: 33px;
   text-align: center;
   color: #ffffff;
-  
 }
 
 /*----------------------------------------- MEDIA QUERIES -----------------------------------*/
-@media (max-width: 800px){
-  .h1{
+@media (max-width: 800px) {
+  .h1 {
     margin-left: 26%;
-  } 
+  }
 }
 @media (max-width: 500px) {
   body#login {
@@ -284,7 +282,7 @@ section {
   option {
     width: 150px;
   }
-  .h1{
+  .h1 {
     margin-left: 22%;
   }
 }
